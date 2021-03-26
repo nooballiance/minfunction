@@ -1,5 +1,9 @@
-# coding: utf-8
 from math import inf
+import numpy as np
+
+# two implementation of min function
+# one inbuilt min function
+# one numpy min function
 
 def akd(a):
   ans = inf
@@ -21,3 +25,4 @@ if __name__ == '__main__':
   print(min(ll))
   print(akd(ll))
   print(boobi(ll))
+  print(np.min(ll))

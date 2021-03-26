@@ -1,14 +1,4 @@
-#### 2 implementation of min function and 1 inbuilt min function
-#### benchmark using **hyperfine**
-#### might use *perf* for `cpp`, *timeit* for `py` for benchmarking
-#### first generate input data from `ip.jl` or `ip.py` and then feed into `minbench.cpp` or `minbench.cpp`
----
-
-todo
-===
-+ https://graphics.stanford.edu/~seander/bithacks.html#CopyIntegerSign
-
-| Function | Mean [ms] | Min [ms] | Max [ms] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
 | inbuilt min inp1 | 378.3 ± 4.4 | 372.6 | 399.2 | 2.86 ± 0.10 |
 | inbuilt min inp2 | 132.1 ± 4.3 | 128.5 | 153.5 | 1.00 |
