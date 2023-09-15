@@ -18,3 +18,7 @@ todo
 | akd min inp2     | 133.2 ± 1.2 | 130.9 | 135.3 | 1.00 |
 | boobi min inp1   | 420.9 ± 5.3 | 411.5 | 443.9 | 3.09 ± 0.09 |
 | boobi min inp2   | 136.2 ± 3.3 | 133.1 | 147.9 | 1.00 |
+
+conclusion: 
++ In DonaldKnuth's paper "StructuredProgrammingWithGoToStatements", he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%." 
++ https://en.wikipedia.org/wiki/Program_optimization
